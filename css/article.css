@@ -1,0 +1,97 @@
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: georgia;
+    background: white;
+}
+
+div{background: white;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap:20px;
+}
+
+header{
+margin: 0;
+padding-left:5px;
+  width:100vw;
+    height: 25vh;
+    background:linear-gradient(135deg, #00000057, #00000063),url("../images/office.jpg")no-repeat center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  place-items:center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ul li,a {
+font-size: 12px;
+    display: inline;
+    color: white;
+}
+section{
+  
+  margin-left:5px;
+  box-sizing: border-box;
+  display: grid;
+  gap:10px;
+}
+.art{
+  padding: 8px;
+  margin: 0;
+  width:96vw;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 10px 10px 20px #bbbbcc,-10px -10px 20px #ffffff;
+  display: grid;
+  
+}
+.art h1{
+margin: 0;
+  font-size: 25px;
+}
+p span{
+  font-size: 35px;
+}
+div ul{
+margin: 0;
+padding: 0;
+  gap:12vw;
+}
+
+footer{
+color: white;
+margin-top: 20px;
+  width: 100vw;
+  background: #000000be;
+  box-sizing: border-box;
+  display: grid;
+  place-items:center;
+  gap:10px;
+  padding: 12px;
+}
+
+input, button{
+
+  height: 40px;
+  width: 70vw;
+  border: none;
+  border-radius: 15px;
+  background: #ffffffaf;
+  line-height: 40px;
+}
+button{
+color: black;
+
+  background: #ffa840c2;
+}
